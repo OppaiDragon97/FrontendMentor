@@ -39,6 +39,7 @@
 }
 .nombre{
     font-weight: bold;
+    font-family: 'Fraunces';
     font-size: 2em;
     line-height: 0.9em;
     margin-top: 2vh;
@@ -64,11 +65,12 @@
     margin-right: 2vh;
     color: #388565;
     font-weight: bold;
+    font-family: 'Fraunces';
     font-size: 1.8em;
 }
 .precio-a{
     color: #8b8a8a;
-    font-size: 0.6em;
+    font-size: 0.8em;
     margin-top: 1.5vh;
     text-decoration: line-through;
 }
@@ -113,8 +115,11 @@
         border-radius: 0 0 10px 10px;
         padding-bottom: 2vh;
     }
+    .nombre{
+        margin-right: 4vh;
+    }
     .desc{
         margin-right: 3vh;
     }
-    
+
 }
