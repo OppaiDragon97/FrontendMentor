@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+}
+.caja{
+    background-color: hsl(30, 38%, 92%);
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 10px lightgray;
+}
+.imagen{
+    background-image: url(images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 37vh;
+    border-radius: 10px 0 0 10px;
+}
+.carta{
+    width: 37vh;
+    height: 50vh;
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+}
+.articulo{
+    color: #8b8a8a;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 4px;
+    margin-top: 4vh;
+    margin-left: 4vh;
+}
+.nombre{
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 0.9em;
+    margin-top: 2vh;
+    margin-left: 4vh;
+    margin-right: 6vh;
+}
+.desc{
+    color: #8b8a8a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.6em;
+    margin-top: 2vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+.precios{
+    display: flex;
+    margin-top: 2vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+.precio-d{
+    margin-right: 2vh;
+    color: #388565;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+.precio-a{
+    color: #8b8a8a;
+    font-size: 0.6em;
+    margin-top: 1.5vh;
+    text-decoration: line-through;
+}
+.boton{
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: #388565;
+    margin-top: 2vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.boton p{
+    margin-left: 1vh;
+}
+
+@media (max-width: 376px){
+    .caja{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding-left: 2vh;
+        padding-right: 2vh;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+    }
+    .imagen{
+        height: 40vh;
+        width: 90vw;
+        background-image: url(images/image-product-mobile.jpg);
+        border-radius: 10px 10px 0 0;
+    }
+    .carta{
+        width: 90vw;
+        border-radius: 0 0 10px 10px;
+        padding-bottom: 2vh;
+    }
+    .desc{
+        margin-right: 3vh;
+    }
+    
+}
